@@ -1,3 +1,4 @@
+var bluedye = require('@yokgs/bluedyejs');
 bluedye.add({
   box:function(){
     return Box._E(_reshape([...arguments]));
@@ -24,5 +25,40 @@ let Box = bluedye.box.prototype ={
     this._raw=this._box.map(x=>x.hex());
     return this;
   },
+  Select: function () {
+    
+  },
+  End: function () {
+    
+  },
   
+  Or: function () {
+    
+  },
+  And: function () {
+    
+  },
+
+  Equal: function () {
+    
+  },
+  LessThan: function () {
+    
+  },
+  MoreThan: function () {
+    
+  },
+
+  $red: function () {
+    
+  },
+  $green: function () {
+    
+  },
+  $blue: function () {
+    
+  },
+  $alpha : function () {
+    
+  },
 }
