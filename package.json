@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/yokgs/BlueDye-Box#readme",
   "dependencies": {
-    "@yokgs/bluedyejs": "^1.3.0"
+    "@yokgs/bluedyejs": "^1.3.1"
   }
 }
